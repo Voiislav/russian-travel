@@ -65,7 +65,7 @@
   list-style: none;
 }
 
-.cover {
+.cover__overlay {
   background-image: url(../images/railway-station.jpg);
   background-size: cover;
   width: 1024px;
