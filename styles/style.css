@@ -71,3 +71,26 @@
   width: 1024px;
   height: 640px;
 }
+
+.cover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links {
+  margin: 0;
+}
+
+.footer__copyright {
+  margin: 0;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #ffffff;
+}
