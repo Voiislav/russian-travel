@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter/Inter-Regular.woff2);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter/Inter-Black.woff2);
+  font-weight: bold;
+}
+
+.page {
+  font-family: "Inter";
+  max-width: 1280px;
+  background: #2a2c2f;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
+.header__lang-link {
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: normal;
+}
+
+.header__lang-link:last-of-type {
+  text-decoration: none;
+}
+
+.intro__title {
+  font-weight: bold;
+  font-size: 54px;
+}
+
+.intro__text {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.intro__list {
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.intro__list_number {
+  font-weight: normal;
+}
+
+.website__link {
+  color: #ffffff;
+}
+
+.places {
+  list-style: none;
+}
+
+.cover {
+  background-image: url(../images/railway-station.jpg);
+  background-size: cover;
+  width: 1024px;
+  height: 640px;
+}
