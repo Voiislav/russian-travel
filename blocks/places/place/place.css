@@ -1,0 +1,31 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+  "title website"
+  "image paragraphs";
+  gap: 48px 40px;
+  margin: 0 0 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    margin: 0 0 73px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+ .place {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 46px 1fr auto;
+  grid-template-areas:
+  "title"
+  "website"
+  "image"
+  "paragraphs";
+  gap: 32px;
+  margin: 0 0 50px 0;
+ } 
+}
