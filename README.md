@@ -9,7 +9,7 @@ This project is one-page responsive site containing an interesting information a
 * Flexbox;
 * Grid Layout;
 * Pseudo-classes and pseudo-elements CSS;
-* Media Queries (for make the site that adapts to various screens).
+* Media Queries.
 
 **Initial layout**
 
