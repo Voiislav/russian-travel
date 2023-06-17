@@ -1,8 +1,8 @@
-# Adaptive layout of one-page site "Travel in Russia"
+# Adaptive layout of one-page website "Travel in Russia"
 
 **Description**
 
-This project is one-page responsive site containing an interesting information about travelling in Russia.
+This project is one-page responsive website containing an interesting information about travelling in Russia.
 
 **Technologies involved**
 
