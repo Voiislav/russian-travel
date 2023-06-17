@@ -1,23 +1,16 @@
-# Проект: Путешествие по России
+# Adaptive layout of one-page site "Travel in Russia"
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+**Description**
 
-**Интро**
+This project is one-page responsive site containing an interesting information about travelling in Russia.
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+**Technologies involved**
 
-**Figma**
+* Flexbox;
+* Grid Layout;
+* Pseudo-classes and pseudo-elements CSS;
+* Media Queries (for make the site that adapts to various screens).
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+**Initial layout**
 
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+* [Figma layout link](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)

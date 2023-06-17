@@ -2,9 +2,11 @@
   color: inherit;
   font-size: 18px;
   line-height: 1.22;
+  transition: all 0.4s ease;
 }
 
 .place__link:hover {
   cursor: pointer;
   opacity: 0.7;
+  transition: all 0.4s ease;
 }
