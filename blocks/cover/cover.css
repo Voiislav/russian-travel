@@ -1,11 +1,14 @@
 .cover {
   background-image: url(../../images/railway-station.jpg);
   background-size: cover;
-  height: 100vh;
   background-position: center;
   position: relative;
-  margin: 0 48px;
-  padding: 12px 0 0 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .cover::after {
@@ -15,33 +18,26 @@
   top: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.4;
+  opacity: 0.3;
   background-color: #2a2c2f;
   transition: all 0.4s ease;
 }
 
 .cover:hover:after {
-  opacity: 0.6;
+  opacity: 0.8;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .cover {
-    margin: 0;
-    padding: 12px 0 0 0;
+    height: 100vh;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1280px) {
   .cover {
-    padding: 17px 0 0 0;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .cover {
-    padding: 16px 0 0 0;
-    height: auto;
-  }
-}  
