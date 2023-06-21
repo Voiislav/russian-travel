@@ -21,5 +21,15 @@
   .intro {
   padding-left: 148px;
   padding-right: 442px;
+  max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .intro {
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: calc(1280px - 984px);
+    max-width: 690px;
   }
 }
